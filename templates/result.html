@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Prediction Result</title>
+  <meta charset="UTF-8">
+  <title>Prediction Result</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #007bff, #00c6ff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background: #fff;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      text-align: center;
+      max-width: 450px;
+      width: 100%;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #444;
+      margin-bottom: 30px;
+    }
+
+    a {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    a:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
+  <div class="card">
     <h1>Prediction Result</h1>
-    <p>{{ experience }} saal ke experience ka predicted salary: Rs. {{ prediction }}</p>
+    <p>{{ experience }} saal Agr apne Dha Suffa se prha h tu Apke ke experience ki predicted salary: <strong>Rs. {{ prediction }}</strong></p>
     <a href="/">Go Back</a>
+  </div>
 </body>
 </html>
