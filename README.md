@@ -13,6 +13,15 @@ Prediction endpoint:
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Homepage Form
+ <img src="/images/1.png" alt="Mango Screenshot" width="800" height="200">
+
+### 📊 Prediction Result
+![Prediction Result](https://via.placeholder.com/800x400.png?text=Prediction+Result+Page)
+
+
 ## 📌 Features
 
 - Predicts salary based on experience
