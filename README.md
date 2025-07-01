@@ -49,6 +49,6 @@ Prediction endpoint:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Khizarkk7/Find-MY-Location.git
-cd Find-MY-Location
+git clone https://github.com/Khizarkk7/Machine-Learning
+
 
