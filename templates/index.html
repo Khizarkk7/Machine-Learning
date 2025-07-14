@@ -76,7 +76,10 @@
     }
   </style>
 </head>
-<body>
+<body onload="welcome()">
+   <script>
+    function welcome() { alert("Welcome!"); }
+  </script>
   <div class="card">
     <h1>Salary Prediction System</h1>
     <form action="/predict" method="POST">
