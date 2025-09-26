@@ -33,8 +33,25 @@ df = pd.DataFrame(data)
 products = ["Shoes", "Shirts", "Pants", "Hats"]
 sales = [150, 200, 120, 90]
 
-plt.bar(products, sales, color="skyblue")
-plt.title("Product Sales")
-plt.xlabel("Products")
-plt.ylabel("Sales")
+# plt.bar(products, sales, color="skyblue")
+# plt.title("Product Sales")
+# plt.xlabel("Products")
+# plt.ylabel("Sales")
+# plt.show()
+
+# Seaborn Example
+tips = sns.load_dataset("tips")  # built-in dataset about restaurant bills
+
+# sns.scatterplot(x="total_bill", y="tip", data=tips)
+# plt.title("Bill vs Tip")
+# plt.show()
+
+# Average tip per day
+# sns.barplot(x="day", y="tip", data=tips)
+# plt.title("Average Tip per Day")
+# plt.show()
+
+# Distribution of total bills
+sns.histplot(tips["total_bill"], bins=20, kde=True, color="green")
+plt.title("Distribution of Total Bills")
 plt.show()
