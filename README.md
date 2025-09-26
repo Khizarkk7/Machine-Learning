@@ -15,7 +15,7 @@ Prediction endpoint:
 
 ## 📸 Screenshots
 ### Graphs
-<img src="/images/2.png" alt="Mango Screenshot" width="800" height="400">
+<img src="/images/image2.png" alt="Mango Screenshot" width="800" height="400">
 
 ### 🏠 Homepage Form
  <img src="/images/1.png" alt="Mango Screenshot" width="800" height="400">
