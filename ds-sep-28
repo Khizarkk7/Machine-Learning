@@ -47,9 +47,9 @@ tips = sns.load_dataset("tips")  # built-in dataset about restaurant bills
 # plt.show()
 
 # Average tip per day
-# sns.barplot(x="day", y="tip", data=tips)
-# plt.title("Average Tip per Day")
-# plt.show()
+sns.barplot(x="day", y="tip", data=tips)
+plt.title("Average Tip per Day")
+plt.show()
 
 # Distribution of total bills
 sns.histplot(tips["total_bill"], bins=20, kde=True, color="green")
