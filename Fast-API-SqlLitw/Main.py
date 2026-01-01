@@ -317,7 +317,7 @@ def create_default_users():
                 role="admin"
             )
             db.add(admin_user)
-            print(f"✅ Created admin user: {admin_username}")
+            print(f" Created admin user: {admin_username}")
         
         # Create regular user (if not exists)
         user_username = "user_1009"  # Last 4 digits of SE231009
@@ -332,7 +332,7 @@ def create_default_users():
                 role="user"
             )
             db.add(regular_user)
-            print(f"✅ Created regular user: {user_username}")
+            print(f"Created regular user: {user_username}")
         
         db.commit()
         
@@ -391,10 +391,10 @@ def create_default_users():
                 db.add_all([user_property1, user_property2])
             
             db.commit()
-            print("✅ Created 4 sample properties")
+            print(" Created 4 sample properties")
         
     except Exception as e:
-        print(f"⚠️  Error creating default users: {e}")
+        print(f"  Error creating default users: {e}")
         db.rollback()
     finally:
         db.close()
